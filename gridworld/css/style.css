@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+   
+}
+.homewallpaper{
+    width: 100%;
+    min-height:100vh;
+    background-image:url('/image/home.jpg');
+    background-size:cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #ff7f50!important;
+}
+.cards{
+    margin-top: -50px;
+}
+.card-text, p{
+    font-size: 14px;
+}
+.card{
+    background-color:whitesmoke;
+    border: none;
+    border-radius: none!important;
+    
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    }
+.text-content h1{
+    font-size: 50px;
+}
+/* .card::before{
+    position: absolute;
+    content: ' ';
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    border-radius:50%; 
+    top:-25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid white;
+
+
+} */
+.featured{
+    margin-top: -70px;
+}
+.CLIENT-MENU{
+    margin-top: -80px;
+}
+.CLIENT-MENU h3{
+    color: coral;
+    margin-bottom: 50px;
+}
+.owl-carousel{
+    width: 100%;
+    height:auto;
+    /* background-color: yellow; */
+    box-sizing: border-box;
+}
+
+.item{
+    width: 100%;
+    height:325px;
+    /* border: 2px solid black; */
+    /* background-color: yellowgreen; */
+    box-sizing: border-box;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background-color:coral!important;
+    color: black;
+    border:none;
+    padding: 0 !important;
+    font: inherit; 
+    position: absolute;
+    top: 50%;
+    left:-2%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform:translateY(-50%);
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background-color:coral!important;
+    color: black;
+    padding: 0 !important;
+    font: inherit; 
+    position: absolute;
+    top: 50%;
+    right:-2%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    outline: none;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.jumbotron{
+    background-color:whitesmoke;
+    
+}
+.jumbotron p{
+    border: none;
+    color:black;
+}
+.jumbotron h1{
+    color:black;
+}
+.jumbotron i{
+    color: coral;
+    padding-left: 5px;
+    font-size: 25px;
+}
+section {
+    padding: 60px 0;
+}
+#footer {
+    background:whitesmoke !important;
+    height: auto;
+}
+#footer h5{
+    color:black;
+}
+#footer a {
+    color: black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+    margin-top:-10px;
+    color:coral ;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:black;
+}
+#footer .quick-links li a:hover{
+    color: coral;
+}
+#footer ul.social li a:hover{
+	color:black;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+    font-weight:700;
+}
+#footer ul.quick-links li a i{
+    margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+#footer p{
+    color: black;
+}
+.heading h2{
+    padding-bottom: 30px;
+    color: coral;
+}
+.imghvr{
+    background-color: white !important;
+}
+.figure-caption{
+    background-color: coral !important;
+}
+.contact h2{
+    color: coral;
+}
+.contact input{
+    background-color:whitesmoke ;
+}
+.contact .form-control{
+    background-color: whitesmoke;
+}
+.form-control{
+    border:none;
+    outline: none;
+}
+.contact .btn{
+    background-color: coral!important;
+    border: none;
+    border-radius: 0;
+    width: 120px;
+}
+.btn{
+    background-color: rgb(252, 113, 63)!important;
+    border: none;
+    outline: none;
+    border-radius: 0%;
+}
+.modal-body .form-group .form-control{
+    background-color: whitesmoke;
+}
+.aboutus-content h1{
+    color: coral;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.contact .address{
+    margin-top: 50px;
+}
+.CLIENT-MENU h3{
+    font-size: 45px;
+}
+.featured h2{
+    font-size: 45px;
+}
+
+}
+
+
